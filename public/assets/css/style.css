@@ -3,26 +3,26 @@ body {
     color: #303030;
 }
 h2 {
-    font-family: 'Merriweather Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     color: white;
     font-weight: bolder;
     padding-bottom: 0.5rem;
 }
 h3 {
-    font-family: 'Merriweather Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     color: yellow;
     font-weight: bold;
     padding-bottom: 0.5rem;
     padding-left: 2rem;
 }
 h4 {
-  font-family: 'Merriweather Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif; 
   color: red;
   font-weight: bold;
   padding-bottom: 2rem;
 }
 h6 {
-    font-family: 'Merriweather Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     color: yellow;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -33,6 +33,10 @@ footer {
     margin-top: 1rem;
     text-align: center;
     background-color: red;
+    border-style: double;
+    border-width: 0.25rem;
+    border-color: #ffffff;
+  
 }
 a:hover {
     color: black;
@@ -72,7 +76,7 @@ a:hover {
 .portfolioLinks {
     color: black;
     font-weight: bold;
-    font-family: 'Merriweather Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     font-size: 1.125rem;
 
 }
