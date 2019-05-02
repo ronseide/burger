@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+}
+h2 {
+    font-family: 'Merriweather Sans', sans-serif; 
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+}
+h3 {
+    font-family: 'Merriweather Sans', sans-serif; 
+    color: yellow;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+}
+h4 {
+  font-family: 'Merriweather Sans', sans-serif; 
+  color: red;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+h6 {
+    font-family: 'Merriweather Sans', sans-serif; 
+    color: yellow;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+footer {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: red;
+}
+a:hover {
+    color: black;
+  }
+#banner {
+  background-color: red;
+  text-align: center;
+  border-style: double;
+  border-width: 0.25rem;
+  border-color: #ffffff;
+  margin-bottom: 2rem;
+  padding: 1em;
+}
+.mcButton {
+  color: red;
+  background-color: yellow;
+}
+#jumperLink {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 43px;
+    width: 35px;
+}
+#social {
+    text-align: right;
+    padding-bottom: 0px !important;
+}
+#copyright {
+    text-align: center;
+    color: black;
+}
+#imgGraph {
+    width: 100%;
+    height: auto; 
+}
+.portfolioLinks {
+    color: black;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif; 
+    font-size: 1.125rem;
+
+}
+@media (min-width: 775px) {
+    #tvBlock {
+        position: absolute;
+        bottom: 0;
+    }
+}
+.container-fluid .jumbotron {
+    border-radius: 0 !important;
+}
+.navbar {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.divider {
+	width:100%;
+	text-align:center;
+}
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+}
+.left {
+	float:left;
+}
+.right {
+    float:right;
+}
+.navbar-brand {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: #ffffff !important;
+    text-align: center !important;
+}
+.jumbotron {
+    padding: 2rem;
+    background-color: #ffffff;
+    /* border-style: solid;
+    border-width: 0.1rem;
+    border-color: black; */
+}
+
+.figure-img {
+    width: 90%;
+    height: auto; 
+}
+.figure-caption-fluid {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-size: .90rem;
+}
+.contactIcon {
+    color: black;
+    font-size: 1.25rem;
+    color: black;
+}
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: white; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .panelImage {
+      height: auto;
+      width: 100%;
+  }
+  .btn-circle {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: 14px;
+    /* font-weight: bolder !important; */
+    /* line-height: 1.428571429; */
+    border: 1px solid black; 
+    border-radius: 20px;
+  }
+  .siteNotes {
+      padding-left: 3rem;
+      list-style-type: disc;
+  }

@@ -1,0 +1,89 @@
+<div class="container-fluid" style="width:90%">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-12" id="banner">
+        <h2>Welcome to McRonald's!</h2>
+        <h6>May I take your order?</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <p>
+          Who deserves a break today? Apparently you. Below you can peruse the burgers already prepared for you. Nothing
+          looks good to you? No problem, you can enter the burger of your choice by typing it in and submitting
+          it.<br><br>
+
+          When you're feeling hungry, just click the "Eat Me!"button next to the burger of your choice. Your devoured
+          burger will be moved, figuratively speaking, to your stomach-- the right side of your screen.<br><br>
+
+          Click the burger button to begin. It might not be as satisfying as real food, but then again, neither is fast
+          food.<br><br>
+          <a href="#portfolioPosition"><img src="./assets/img/burger1.png" id="jumperLink"></a>
+        </p>
+        <div class="row">
+          <div class="divider">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="./assets/img/evilRonald.jpg" class="figure-img" />
+        <figcaption class="figure-caption-fluid">
+          Quit struggling, kid. Obesity and diabetes ain’t so bad and they’re great for business!
+        </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div> <!-- Jumbotron closes, portfolio begins. -->
+  <div class="row">
+    <br><br><br><br>
+  </div>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <h4>On The Table</h4>
+      <ul>
+        {{#each burger}}
+        {{#unless this.devoured}}
+        <li>
+          <button class="change-devoured btn btn-warning mcButton" data-id="{{id}}">Eat Me!</button>&nbsp;&nbsp;&nbsp;
+          {{id}}
+          {{burger_name}}</pre><br><br>
+        </li>
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <h4>In Your Stomach</h4>
+      <ul>
+        {{#each burger}}
+        {{#if this.devoured}}
+        <li>
+          {{id}}
+          {{burger_name}}</pre><br><br>
+        </li>
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <footer>
+        <h3>Add a Burger</h3>
+        <form class="create-form">
+          <div class="form-group">
+            <label for="burger"></label>
+            <input type="text" id="burger" name="burger_name">
+          </div>
+          <button type="submit" class="btn btn-warning mcButton">Submit</button>
+        </form>
+        <a name="portfolioPosition"></a>
+      </footer>
+    </div>
+  </div>
+  {{!-- Container Closes --}}
+</div>
